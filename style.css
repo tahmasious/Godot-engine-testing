@@ -1,0 +1,182 @@
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+*{
+	box-sizing: border-box;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+@font-face{
+	font-family: "sahel" ;
+	src: url("fonts/IranSans.ttf")  format("truetype") ;
+}
+img{
+	
+	max-width: 100% ;
+}
+
+body{
+	background: #cccccc;
+	font-family: sahel ;
+}
+a:hover , a:focus , a:active , a:visited ,a {
+	text-decoration: none;
+	color: white;
+}
+.main{
+	width: 1200px;
+	margin: 0 auto;
+}
+.main .masterhead {
+	width: 100%;
+	float: right;
+}
+.main .masterhead .header {
+	width: 100% ;
+	background: #00786c ;
+	float: right;
+}
+
+.container {
+	width: 1100px;
+	margin:0 auto;
+	float: right;
+	boreder-radius	
+}
+.container ul li  {
+	display: inline-block;
+	margin-right: 5px;
+}
+.container ul li  a{
+	margin: 8px;
+	display: block;
+	font-family: sahel ;
+}
+.pull-left{
+	float: left;
+	display: block;
+	margin: 8px;
+}
+.container ul{
+	margin-right:  8px;
+}
+.main .masterhead .mmenu {
+	background: #899090 ;
+}
+li{
+	list-style: none;
+}
+.mmenu .textmg ul li{
+	
+	float: right;
+}
+.mmenu {
+	float: right;
+	width: 100% ;
+}
+.image_logo img{
+	float: left;
+	margin: 5px auto;
+	margin-left: 9px;
+}
+.textmg {
+	float: right;
+	width: 1100px
+	margin:auto;
+}
+.mmenu .textmg ul li a{
+	float: right;
+	display: block;
+	padding: 14px;
+	margin-top: 15px;
+}
+.mmenu .textmg ul{
+	margin-right: 10px;
+}
+.seperator{
+	clear: both;
+}
+
+.gallery-item {
+	width: 25% ;
+	float: right;
+}
+.gallery .gallery-item img{
+	float: right;
+}
+
+.team .first {
+	float: right;
+	width: 33.333% ;
+}
+.team .second {
+	float: right;
+	width: 33.333% ;
+}
+.team .third {
+	float: right;
+	width: 33.333% ;
+}
+
+.big-g {
+	margin: 47px auto;
+	display: block;
+	si
+	
+}
+
+.g-text {
+	margin: 17px auto;
+	
+	text-align: center;
+}
+
+.title {
+	text-align: center;
+	margin-top: 20px;
+}
+#intro{
+	col: 72px;
+}
+img{
+	color: #F1C40F;
+
+}
