@@ -1,3 +1,3 @@
 # my-website
-this is a test about wen pages
+this is a test about web pages
 ---
